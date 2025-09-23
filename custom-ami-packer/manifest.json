@@ -1,0 +1,38 @@
+{
+  "builds": [
+    {
+      "name": "custom-ubuntu-ami-builder",
+      "builder_type": "amazon-ebs",
+      "build_time": 1757587772,
+      "files": null,
+      "artifact_id": "us-east-1:ami-075b3bf7b095177ea",
+      "packer_run_uuid": "63e9979c-0f8c-9107-f0cd-3d5526a67179",
+      "custom_data": {
+        "my_custom_data": "custom-ami-data"
+      }
+    },
+    {
+      "name": "custom-ubuntu-ami-builder",
+      "builder_type": "amazon-ebs",
+      "build_time": 1757596141,
+      "files": null,
+      "artifact_id": "us-east-1:ami-03d983692a32619cf",
+      "packer_run_uuid": "d29938e0-fd82-d97c-8b99-411fd8a0b6aa",
+      "custom_data": {
+        "my_custom_data": "custom-ami-data"
+      }
+    },
+    {
+      "name": "custom-ubuntu-ami-builder",
+      "builder_type": "amazon-ebs",
+      "build_time": 1758280510,
+      "files": null,
+      "artifact_id": "us-east-1:ami-0d94b8dc850dd9f5d",
+      "packer_run_uuid": "f22acaa1-5fd2-9e82-d793-c13c9ccc3abd",
+      "custom_data": {
+        "my_custom_data": "custom-ami-data"
+      }
+    }
+  ],
+  "last_run_uuid": "f22acaa1-5fd2-9e82-d793-c13c9ccc3abd"
+}
