@@ -1,8 +1,8 @@
-Monolithic Terraform AWS Infrastructure
+# Monolithic Terraform AWS Infrastructure
 
 This repository demonstrates a robust, production-ready AWS infrastructure for a monolithic application, showcasing IaC best practices, modularity, and secure cloud architecture.
 
-🚀🚀 What This Repo Shows
+# 🚀🚀 What This Repo Shows
 
 End-to-end infrastructure as code (Terraform) for multi-environment deployments (dev/test/prod)
 
@@ -18,7 +18,7 @@ Secure operational access: Bastion host with SSM, hardened SSH, and IAM roles
 
 Modular, reusable architecture: Code is split into modules, enabling easy replication and environment isolation
 
-🗂🗂 Modules Structure
+# 🗂🗂 Modules Structure
 
 Modules are organized to enforce reusability and clean separation of concerns:
 
@@ -30,7 +30,7 @@ alb/	Application Load Balancer, target groups, listeners
 cloudfront/	CloudFront distribution, caching policies, WAF
 bastion/	Bastion host with IAM role & SSM for secure access
 
-🌐🌐 Architecture Highlights
+# 🌐🌐 Architecture Highlights
 
 Private subnets host sensitive services (DB), isolated from public internet
 
@@ -42,7 +42,7 @@ Secrets Manager centralizes sensitive credentials, avoiding hardcoding or env-va
 
 IAM roles & instance profiles enforce least-privilege security on EC2 and Bastion hosts
 
-⚡⚡ Key Features
+# ⚡⚡ Key Features
 
 Multi-environment deployments via dev/, test/, prod/ root folders
 
@@ -54,7 +54,7 @@ Highly available RDS: Multi-AZ, encrypted, IAM-authenticated, with automated bac
 
 Secure connectivity: Bastion host with SSM, hardened SSH, private subnet DB access only
 
-🛠🛠 Usage
+# 🛠🛠 Usage
 
 x
 
@@ -66,16 +66,16 @@ Plan for specific environment
 terraform plan -var-file="dev.tfvars" -out=tfplan
 
 
-Apply infrastructure
+# Apply infrastructure
 
 terraform apply tfplan
 
 
-Destroy when needed
+# Destroy when needed
 
 terraform destroy -var-file="dev.tfvars"
 
-🔑🔑 Outputs
+# 🔑🔑 Outputs
 
 Typical Terraform outputs to reference in your app:
 
@@ -91,7 +91,7 @@ ALB DNS Name
 
 CloudFront Distribution URL
 
-📌📌 Notes
+# 📌📌 Notes
 
 Secure by design: all secrets in AWS Secrets Manager
 
@@ -101,7 +101,7 @@ WAF integrated for layer 7 protection
 
 Modular Terraform code ensures repeatable deployments and environment isolation
 
-📄 License
+# 📄 License
 
 This repository is licensed under Creative Commons Zero (CC0 1.0 Universal).
 You are free to view, learn from, or share this code for portfolio and recruitment purposes.
