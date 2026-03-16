@@ -106,6 +106,6 @@ Modular Terraform code ensures repeatable deployments and environment isolation
 This repository is licensed under Creative Commons Zero (CC0 1.0 Universal).
 You are free to view, learn from, or share this code for portfolio and recruitment purposes.
 
-Please reference below the archiecture diagram..
+# Please reference below the archiecture diagram..
 
 <img width="1305" height="686" alt="image" src="https://github.com/user-attachments/assets/802f413f-ab1f-4978-b458-3093f8fd6af4" />
