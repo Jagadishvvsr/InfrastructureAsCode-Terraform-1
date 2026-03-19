@@ -56,8 +56,6 @@ Secure connectivity: Bastion host with SSM, hardened SSH, private subnet DB acce
 
 # 🛠🛠 Usage
 
-x
-
 terraform init
 
 
